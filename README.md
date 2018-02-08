@@ -1,4 +1,4 @@
-## Forked From (renatomarinho/laravel-page-speed)[https://github.com/renatomarinho/laravel-page-speed]
+### Forked From [renatomarinho/laravel-page-speed](https://github.com/renatomarinho/laravel-page-speed)
 
 # Laravel Page Speed
 
