@@ -2,15 +2,6 @@
 
 # Laravel Page Speed
 
-[![Laravel 5.3][icon-l53]][link-laravel]
-[![Laravel 5.4][icon-l54]][link-laravel]
-[![Laravel 5.5][icon-l55]][link-laravel]
-[![Laravel 5.6][icon-l55]][link-laravel]
-[![Build Status](https://travis-ci.org/AsyrafHussin/laravel-page-speed.svg?branch=master)](https://travis-ci.org/AsyrafHussin/laravel-page-speed)
-[![License](https://poser.pugx.org/AsyrafHussin/laravel-page-speed/license)](https://packagist.org/packages/AsyrafHussin/laravel-page-speed)
-[![Latest Stable Version](https://poser.pugx.org/AsyrafHussin/laravel-page-speed/version)](https://packagist.org/packages/AsyrafHussin/laravel-page-speed)
-[![Total Downloads][icon-downloads]][link-downloads]
-
 ### Simple package to minify HTML output on demand which results in a 35%+ optimization.
 
 ## Installation is easy
