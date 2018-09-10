@@ -9,7 +9,7 @@
 You can install the package via composer:
 
 ```bash
-$ composer search asyrafhussin/laravel-page-speed@1.8.8
+$ composer search asyrafhussin/laravel-page-speed:1.8.8@dev
 ```
 
 ### Laravel 5.5 and up
