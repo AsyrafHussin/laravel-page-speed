@@ -1,6 +1,6 @@
 ### Forked From [renatomarinho/laravel-page-speed](https://github.com/renatomarinho/laravel-page-speed)
 
-# Laravel Page Speed
+# Laravel Page Speed [Support Laravel 5.7]
 
 ### Simple package to minify HTML output on demand which results in a 35%+ optimization.
 
@@ -11,16 +11,17 @@ You can install the package via composer:
 ```bash
 $ composer require asyrafhussin/laravel-page-speed
 ```
+
 ### Laravel 5.5 and up
- 
+
 You don't have to do anything else, this package uses the Package Auto-Discovery feature, and should be available as soon as you install it via Composer.
 
 ### Laravel 5.4 or 5.3
 
 Add the Service Provider to your **config/app.php**: `AsyrafHussin\LaravelPageSpeed\ServiceProvider::class`
 
- *This is required for publishing the configuration file:* 
- 
+ _This is required for publishing the configuration file:_
+
 #### Publish configuration file
 
  `php artisan vendor:publish --provider="AsyrafHussin\LaravelPageSpeed\ServiceProvider"`
@@ -104,7 +105,7 @@ protected $middleware = [
         <td>combine_heads</td>
         <td>Combines multiple <head> elements into one</td>
         <td>NO</td>
-    </tr> 
+    </tr>
     <tr>
         <td>combine_javascript</td>
         <td>Combines multiple JavaScript files into one</td>
@@ -260,7 +261,7 @@ protected $middleware = [
         <td>Sprites images</td>
         <td>NO</td>
     </tr>
-    
+
 </table>
 
 <hr />
@@ -279,6 +280,7 @@ You would probably like to set up the local environment to get a readable output
 //Set this field to false to disable the laravel page speed service.
 'enable' => env('LARAVEL_PAGE_SPEED_ENABLE', true),
 ```
+
 ### Skip routes
 
 You would probably like to configure the package to skip some routes.
@@ -295,11 +297,11 @@ You would probably like to configure the package to skip some routes.
 
 By default this field comes configured with some options, so feel free to configure according to your needs...
 
-*Notice*: This package skip automatically binary response. See [File Downloads][link-file-download].
+_Notice_: This package skip automatically binary response. See [File Downloads][link-file-download].
 
 ## Testing
 
-``` bash
+```bash
 $ composer test
 ```
 
@@ -309,26 +311,35 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Renato Marinho][link-author]
-- [All Contributors][link-contributors]
+-   [Renato Marinho][link-author]
+-   [All Contributors][link-contributors]
 
-## Inspiration 
+## Inspiration
 
-#### Mod Page Speed (https://www.modpagespeed.com/)
+#### Mod Page Speed (<https://www.modpagespeed.com/>)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [icon-l53]: https://img.shields.io/badge/Laravel-5.3-brightgreen.svg?style=flat-square
+
 [icon-l54]: https://img.shields.io/badge/Laravel-5.4-brightgreen.svg?style=flat-square
+
 [icon-l55]: https://img.shields.io/badge/Laravel-5.5-brightgreen.svg?style=flat-square
+
 [icon-downloads]: https://poser.pugx.org/AsyrafHussin/laravel-page-speed/downloads
 
 [link-laravel]: https://laravel.com
+
 [link-downloads]: https://packagist.org/packages/AsyrafHussin/laravel-page-speed
+
 [link-before]: https://i.imgur.com/cN3MWYh.png
+
 [link-after]: https://i.imgur.com/IKWKLkL.png
+
 [link-author]: https://github.com/AsyrafHussin
+
 [link-contributors]: ../../contributors
+
 [link-file-download]: https://laravel.com/docs/5.5/responses#file-downloads
